@@ -1,0 +1,7 @@
+﻿
+@*@Model retrieves the ViewData.Model property, it is dynamic so type will be decided as runtime(loose typing).HOver over object to see type*@
+Model: @Model.Day
+
+
+@*a safer way to ensure data adheres to a specific data structure and to render properties associated with that data structure is to set the @model to the type; strongly typed(uncommen line below, then hover object above)*@
+@model DateTime
